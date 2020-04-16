@@ -1,33 +1,25 @@
 class CalcController{
     constructor(){
-        this._displayCalc = document.querySelector("#display");
+        this._displayCalcEl = document.querySelector("#display");
         this._dateEl = document.querySelector("#date");
-        this._hourEl= document.querySelector("#hour");
+        this._hourEl = document.querySelector("#hour");
         this._currentdate;
+        this.initialize();
     }
 
-    get display (){
-        return this._displayCalc;
+    initialize(){
+       
+        //refactory this part of code for date and hour//
+        this._dateEl.innerHTML = "16/04/2020";
+        this._hourEl.innerHTML = "01:08 am";
     }
 
-    set display (value){
-        this._displayCalc = value;
+    get display(){
+        return this._displayCalcEl.innerHTML;
     }
 
-    get date (){
-        return this._dateEl;
-    }
-
-    set date (value){
-        this._dateEl.innerHTML = toLocaleDate.querySelector("#date");
-    }
-
-    get hour (){
-        return this._hourEl;
-    }
-
-    set hour (value){
-        this._hourEl.innerHTML = value;
+    set display(value){
+        this._displayCalcEl.innerHTML = value;
     }
 
     get currentdate (){
