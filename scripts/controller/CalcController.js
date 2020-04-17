@@ -9,15 +9,22 @@ class CalcController{
     }
 
     initialize(){ 
+
+        this.setDisplayDateTime();
        
         setInterval(()=>{
-
-            this.CalcDate = this.currentdate.toLocaleDateString(this._locale);
-            this.CalcHour = this.currentdate.toLocaleTimeString(this._locale);
+            this.setDisplayDateTime();
+            
 
         },1000 );
        
         
+    }
+
+    setDisplayDateTime(){
+        this.CalcDate = this.currentdate.toLocaleDateString(this._locale);
+        this.CalcHour = this.currentdate.toLocaleTimeString(this._locale);
+
     }
 
     get CalcDisplay(){
