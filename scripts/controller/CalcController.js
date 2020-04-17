@@ -22,9 +22,9 @@ class CalcController{
     }
 
     setDisplayDateTime(){
-        this.CalcDate = this.currentdate.toLocaleDateString(this._locale);
-        this.CalcHour = this.currentdate.toLocaleTimeString(this._locale);
-
+        this.CalcDate = this.currentdate.toLocaleDateString(this._locale);  
+                this.CalcHour = this.currentdate.toLocaleTimeString(this._locale);
+    
     }
 
     get CalcDisplay(){

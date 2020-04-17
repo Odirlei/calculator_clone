@@ -1,0 +1,61 @@
+[33mcommit b119734835d92e5c7a9ff5eaee4f39315d5f387e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 3e5ceb3 cd28bf8
+Author: Odirlei <odirlei.guilherme@hotmail.com>
+Date:   Fri Apr 17 13:13:28 2020 -0300
+
+    Merge branch 'master' of github.com:Odirlei/calculator_clone
+
+[33mcommit 3e5ceb3dc89ce811d53d53bcefa4873f8c489fb8[m
+Author: Odirlei <odirlei.guilherme@hotmail.com>
+Date:   Fri Apr 17 13:13:13 2020 -0300
+
+    the setDisplayDateTime () method was created
+
+[33mcommit cd28bf848797f3455ff7ef071900dbcee266076d[m
+Author: Odirlei Guilherme <odirlei.guilherme@hotmail.com>
+Date:   Fri Apr 17 12:52:44 2020 -0300
+
+    descrição de atividades, description of activities
+
+[33mcommit 6c92ebd552283d085db9fde1eb9893f3c2fc2456[m
+Author: Odirlei <odirlei.guilherme@hotmail.com>
+Date:   Fri Apr 17 11:54:44 2020 -0300
+
+    error remove in html
+
+[33mcommit 8a4b4d800da23ca6e011aeadd249389e3de1733e[m
+Author: Odirlei <odirlei.guilherme@hotmail.com>
+Date:   Fri Apr 17 11:41:31 2020 -0300
+
+    add setInterval for CalcDate and CalcHour
+
+[33mcommit 67f2adae7f9e12f821d0c83d0c06438709ac0b39[m
+Author: Odirlei <odirlei.guilherme@hotmail.com>
+Date:   Thu Apr 16 02:03:39 2020 -0300
+
+    create initialize, refectory display, input querySelector
+
+[33mcommit de100306a2b6bbf7da1b3562f60911c48957be62[m
+Author: Odirlei <odirlei.guilherme@hotmail.com>
+Date:   Thu Apr 16 00:06:30 2020 -0300
+
+    criando cosntructor, get and set
+
+[33mcommit 415b8b13a51048856986d97ae60ef14e3783e6e8[m
+Author: Odirlei <odirlei.guilherme@hotmail.com>
+Date:   Wed Apr 15 20:18:28 2020 -0300
+
+    create calculator and CalcContorller.js
+    change name # id in index.html, line 821  and 822 for date/hour.
+
+[33mcommit 2ee029b0d278eb2cfb120000e6db3f59e8d8966d[m
+Author: Odirlei Guilherme <odirlei.guilherme@hotmail.com>
+Date:   Wed Apr 15 19:58:58 2020 -0300
+
+    Add files click.mp3, digital-7.ttf and index.html
+
+[33mcommit b39eb4368b5ecbc739e47722fa61a23b08291de8[m
+Author: Odirlei Guilherme <odirlei.guilherme@hotmail.com>
+Date:   Wed Apr 15 19:56:18 2020 -0300
+
+    Initial commit
